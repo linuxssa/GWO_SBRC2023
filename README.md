@@ -1,14 +1,15 @@
 Here we present a solution to detect anomalies on Data Centers networks, using the Grey Wolf Optimizer (GWO) [1] to select features and Machine Learning (ML) algorithms to create models that use less features as possible and reach considerable accuracy. We compare results with a solution without features selection.
 
 This code is the implementation of the solution reported at the paper "Detecção Eficiente de Anomalias em Redes de Data Centers Apoiada por Aprendizado de Máquina e Otimizador do Lobo Cinzento para Seleção de Atributos" published at SBRC 2023.
-Features
+
+++ Features
 
     Creates detection models using ML algorithms with less features as possible, with features selection;
     Reduces the number of features to generate models without a significant impact on model accuracy, using GWO.
     Improve the utilization of the network resources because fewer data need to be transferred to be classified
     Improve the utilization of the processing resources because fewer features need to be analyzed .
 
-How to run
+++ How to run
 
 To run this code, first you must download the following datasets:
 
