@@ -26,6 +26,6 @@ Henrique Salvador (PhD Student)
 
 e-mail: henriquesalvador@ime.usp.br
 
-Reference
+## Reference
 
 [1] Seyedali Mirjalili, Seyed Mohammad Mirjalili, Andrew Lewis. Grey Wolf Optimizer. Advances in Engineering Software. Volume 69, 2014, Pages 46-61, ISSN 0965-9978.(https://doi.org/10.1016/j.advengsoft.2013.12.007)
