@@ -2,14 +2,14 @@ Here we present a solution to detect anomalies on Data Centers networks, using t
 
 This code is the implementation of the solution reported at the paper "Detecção Eficiente de Anomalias em Redes de Data Centers Apoiada por Aprendizado de Máquina e Otimizador do Lobo Cinzento para Seleção de Atributos" published at SBRC 2023.
 
-++ Features
+## Features
 
     Creates detection models using ML algorithms with less features as possible, with features selection;
     Reduces the number of features to generate models without a significant impact on model accuracy, using GWO.
     Improve the utilization of the network resources because fewer data need to be transferred to be classified
     Improve the utilization of the processing resources because fewer features need to be analyzed .
 
-++ How to run
+## How to run
 
 To run this code, first you must download the following datasets:
 
@@ -20,7 +20,7 @@ Save then on your Google Drive, after that, you need to set it on the proper pla
 
 After to set the dataset, this code runs an experiment without feature selection, the Gray Wolf Optimizer (GWO), as a comparing reference. Followed by an experiment using GWO to select features and the accuracy to compose the fitness function. And at the end, the experiment using GWO to select features and the F1-Score as parameter of the GWO fitness function.
 
-Contact
+## Contact
 
 Henrique Salvador (PhD Student)
 
